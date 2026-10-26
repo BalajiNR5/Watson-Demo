@@ -16,12 +16,12 @@ python -c "from pathlib import Path; from office_policy import configure, disabl
 
 
 
+py -3.12 -m pip install "fastapi>=0.115,<1" "transformers>=4.41,<5" "sentence-transformers>=3.4,<4" "huggingface-hub>=0.23,<1"
 
-uv pip install --python 3.12 "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+py -3.12 -c "from sentence_transformers import SentenceTransformer; m = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2'); m.save_pretrained('approved_models/all-MiniLM-L6-v2')"
 
-
-
-py -3.12 -c "import spacy; nlp = spacy.load('en_core_web_sm'); print('NLP model loaded successfully')"
+py -3.12 office_launcher.py --check
+py -3.12 office_launcher.py
 
 
 
