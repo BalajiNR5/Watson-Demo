@@ -1,0 +1,3 @@
+python office_launcher.py
+
+python -c "from pathlib import Path; from office_policy import configure, disable_tokenizer_downloads; configure(Path.cwd()); disable_tokenizer_downloads(); import sys; sys.path.insert(0, 'backend'); import uvicorn; uvicorn.run('app.main:app', host='127.0.0.1', port=8000)"
