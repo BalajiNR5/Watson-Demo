@@ -1,3 +1,15 @@
 python office_launcher.py
 
 python -c "from pathlib import Path; from office_policy import configure, disable_tokenizer_downloads; configure(Path.cwd()); disable_tokenizer_downloads(); import sys; sys.path.insert(0, 'backend'); import uvicorn; uvicorn.run('app.main:app', host='127.0.0.1', port=8000)"
+
+1) py -3.12 -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+
+2)py -3.12 -m pip install -r requirements-office.txt
+
+3)py -3.12 -m spacy download en_core_web_sm
+
+4)py -3.12 -c "from sentence_transformers import SentenceTransformer; m = SentenceTransformer('sentence-transformers/all-MiniLM-L6-v2'); m.save_pretrained('approved_models/all-MiniLM-L6-v2')"
+
+5)py -3.12 office_launcher.py --check
+
+6)py -3.12 office_launcher.py
