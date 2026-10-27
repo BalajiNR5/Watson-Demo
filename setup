@@ -34,3 +34,8 @@ dir "C:\Program Files\Python*" /ad /b
 dir "%LOCALAPPDATA%\Programs\Python\Python312\python.exe"
 "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" --version
 dir "%LOCALAPPDATA%\Programs\Python\Python312" /b
+
+
+1)"%LOCALAPPDATA%\Programs\Python\Python312\python.exe" -m pip install "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl"
+
+2)"%LOCALAPPDATA%\Programs\Python\Python312\python.exe" office_launcher.py
