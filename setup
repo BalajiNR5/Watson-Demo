@@ -25,3 +25,8 @@ py -3.12 office_launcher.py
 
 "%LOCALAPPDATA%\Programs\Python\Python312\python.exe" office_launcher.py
 
+
+dir "%LOCALAPPDATA%\Programs\Python" /ad /b
+
+
+dir "C:\Program Files\Python*" /ad /b
