@@ -23,5 +23,5 @@ py -3.12 -c "from sentence_transformers import SentenceTransformer; m = Sentence
 py -3.12 office_launcher.py --check
 py -3.12 office_launcher.py
 
-
+"%LOCALAPPDATA%\Programs\Python\Python312\python.exe" office_launcher.py
 
