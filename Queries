@@ -1,0 +1,44 @@
+01. EXACT DOCUMENT LOOKUP
+Using only Market_Access_Immunology_Dupixent_AD_India.txt, identify the brand, generic drug, indication, therapeutic area and country. Answer in one sentence and cite the supporting passage. If you cannot retrieve that document, say so.
+
+02. GENERIC-TO-BRAND RESOLUTION
+According to Indication_Deep_Dive_Neurology_Tecfidera_MS_UK.docx, which brand is associated with dimethyl fumarate, and which indication and geography does the document cover? Cite the supporting passage.
+
+03. COMBINATION DRUG EXTRACTION
+Using only Therapy_Area_Landscape_CF_Trikafta_Global.docx, list the three active substances associated with Trikafta, its indication and its therapeutic area. Cite the document.
+
+04. RETRIEVING SPECIFIC STAKEHOLDER INSIGHTS
+According to HCP_Perception_Respiratory_Asthma_Xolair_EU.pptx, what information do clinicians and KOLs request about Xolair in asthma? Summarize in three short bullets and cite the supporting slide or passage. Do not add clinical claims from outside the document.
+
+05. MULTI-ENTITY EXTRACTION
+Using only Competitive_Landscape_CKD_Farxiga_Jardiance_EU, identify the main brand and its active substance, the comparator brand and its active substance, and the geography. Cite the supporting passage. Do not infer which treatment is better.
+
+06. MARKET ACCESS RETRIEVAL
+Using only Market_Access_Oncology_Keytruda_NSCLC_EU, list the five market-access considerations explicitly mentioned for the European Union. Cite the supporting passage.
+
+07. GEOGRAPHY-SPECIFIC KOL LOOKUP
+According to KOL_Interview_RareDisease_Spinraza_SMA_Japan.docx, identify the brand, generic drug, indication, therapeutic area and country. Cite the executive summary and keep the answer under 60 words.
+
+08. SAME BRAND, DIFFERENT DOCUMENTS
+Compare Market_Access_Immunology_Dupixent_AD_India.txt with HCP_Perception_Immunology_Dupixent_AD_US. For each document, provide its study type, geography and synthetic ID. Use a two-row table and cite each row separately. Keep the India and US sources separate.
+
+09. GLOBAL VERSUS COUNTRY-SPECIFIC EVIDENCE
+Compare Indication_Deep_Dive_Cardiology_Entresto_HF_Global with KOL_Interview_Cardiology_HeartFailure_Entresto_France.txt. What differs in their study type and geography, and what brand, active substance and indication do they share? Cite both documents.
+
+10. DOCUMENT IDENTITY AND CROSS-DOCUMENT CONTAMINATION
+Retrieve the document whose internal synthetic ID is SYN-015. Report its filename or title, country, therapeutic area and brand, and quote the passage supporting the country. If you cannot establish the document identity, say so rather than using another document.
+
+11. CROSS-FORMAT COMPARISON
+Using HCP_Perception_Respiratory_Asthma_Xolair_EU.pptx and Therapy_Area_Landscape_Respiratory_Xolair_Asthma_India, compare the study types and geographies. Also state the brand, generic drug and indication shared by both. Cite each source separately.
+
+12. AVOIDING INDICATION MIX-UPS
+Using only RWE_KOL_Oncology_Melanoma_Opdivo_Canada.txt, identify the brand, generic drug, indication and geography. Does this particular document focus on melanoma or NSCLC? Cite the passage establishing the indication.
+
+13. NEW DOCUMENT AND NUMERICAL EXTRACTION
+Using only New_Clinical_Evidence_Keytruda_2026.txt, report the stated study type, document date, geography, clinician satisfaction percentage and number of HCPs surveyed. Cite the passage supporting the percentage and sample size. Describe these as statements in the sample document.
+
+14. CHECKING A MISLEADING TITLE
+Using only New_Clinical_Evidence_Keytruda_2026.txt, does the text report a randomized clinical trial or describe an HCP perception survey? Explain the title-versus-study-type mismatch. Does the file provide a hazard ratio, confidence interval or p-value supporting its overall-survival claim? Cite what is present and explicitly identify what is missing.
+
+15. ABSTENTION WHEN THE SOURCE HAS NO ANSWER
+Using only Market_Access_Immunology_Dupixent_AD_India.txt, what is the exact annual treatment cost of Dupixent in India, in INR? Quote the supporting passage. If the document does not provide a price, state that the requested information is not available in this document. Do not estimate or use outside knowledge.
