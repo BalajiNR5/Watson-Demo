@@ -1,0 +1,6 @@
+$env:WATSON_INGEST_ADMIN_TOKEN = "WatsonAdminToken1234567890123456"
+$env:WATSON_INGEST_SESSION_SECRET = "WatsonSessionSecret1234567890123456"
+$env:WATSON_INGEST_COOKIE_SECURE = "0"
+
+cd "C:\Users\HP\Downloads\watson_dynamic_metadata_poc (1)\watson_dynamic_metadata_poc"
+py -3.12 office_launcher.py
